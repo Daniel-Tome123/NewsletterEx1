@@ -1,4 +1,4 @@
-<mjml>
+<mjml lang="pt">
 
   <mj-head>
 
@@ -7,11 +7,25 @@
       <mj-section background-color="#fff" />
     </mj-attributes>
 
+    <mj-title>Hello MJML</mj-title>
+    
   </mj-head>
 
   <mj-body background-color="#eee">
+    
+    	<mj-section>
+        <mj-column>
+      		<mj-text font-family="Helvetica" color="#FFF">
+            <a href="https://daniel-tome123.github.io/NewsletterEx1/" target="_blank">
+          		<span>
+          			Versão online
+          		</span>
+            </a>
+        	</mj-text>
+        </mj-column>
+      </mj-section>
+    
     <mj-section>
-
       <mj-column>
         <mj-text>
           First column
@@ -25,5 +39,28 @@
       </mj-column>
 
     </mj-section>
+    
+    <mj-section background-color="#FFF">			
+      <mj-column>
+      	<mj-button border-radius="50px" href="https://worten.pt" background-color="#f45e43" color="#FFF">
+          	Don't click me!
+        </mj-button>
+                   
+      </mj-column>		
+    </mj-section>
+    
+    <mj-section background-color="#ffb3c6">	
+      <mj-column>
+      	1
+        <mj-image align="center" width="300px" src="img/engineer.png" />
+          
+      </mj-column>
+      <mj-column>
+      	2
+        <mj-image align="center" width="300px" src="https://www.online-image-editor.com//styles/2014/images/example_image.png" />
+      </mj-column>
+    </mj-section>
+                
+    
   </mj-body>
 </mjml>
